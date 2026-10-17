@@ -11,6 +11,12 @@
 
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+.expertise-grid {display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); column-gap: 16px; margin-bottom: 8px}
+.expertise-grid p {margin: 8px 0}
+.logo-grid {display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 16px; margin-bottom: 16px}
+.logo-tile {display: flex; align-items: center; justify-content: center; height: 110px; padding: 12px; background: #fff; border: 1px solid #eee; border-radius: 6px}
+.logo-tile-dark {background: #2b2b2b; border-color: #2b2b2b}
+.logo-tile img {max-width: 100%; max-height: 100%; object-fit: contain}
 </style>
 <script src="https://kit.fontawesome.com/1506cb7053.js" crossorigin="anonymous"></script>
 </head>
@@ -32,7 +38,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           </div>
         </div>
         <div class="w3-container">
-          <p><i class="fa w3-large w3-text-teal"></i>Friendly games industry expertise that's accessible, inclusive and transparent.</p>
+          <p><i class="fa w3-large w3-text-teal"></i>Fractional Operations, Production, Indie Publishing, Business Developer and Mentor</p>
           <hr>
           <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="mailto:hello@stephdarrah.co.uk">hello@stephdarrah.co.uk</a></p>
           <p><i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="https://www.linkedin.com/in/stephanie-darrah-592a5149/" target="_blank">Linkedin</a></p>
@@ -49,60 +55,88 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       <div class="w3-container w3-card w3-white w3-margin-bottom">
         <h1 class="w3-center w3-text-teal"> Steph Darrah Video Games Consultancy</h1>
         <br>
-        <p class="w3-large"><b><i class="fa fa-gamepad fa-fw w3-margin-right w3-text-teal"></i>Indie Publishing Consulting</b></p>
-
-          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-solid fa-person-chalkboard w3-margin-right w3-text-teal"></i>Pitching
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-dollar fa-fw w3-margin-right w3-text-teal"></i>Funding Avenues
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-line-chart fa-fw w3-margin-right w3-text-teal"></i>Commercial Title Analysis and Forecasting
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-briefcase fa-fw w3-margin-right w3-text-teal"></i>Business Development and Networking
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-pencil fa-fw w3-margin-right w3-text-teal"></i>Legal documents and Negotiations
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar fa-fw w3-margin-right w3-text-teal"></i>Production and Project Planning
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-shopping-cart fa-fw w3-margin-right w3-text-teal"></i>Online Retail and Lifecycle Planning</p>
-
-          <hr>
-          <p class="w3-large"><b><i class="fa fa-book-open fa-fw w3-margin-right w3-text-teal"></i>Teaching and Mentoring</b></p>
-          <hr>       
-          <p class="w3-large"><b><i class="fa fa-briefcase fa-fw w3-margin-right w3-text-teal"></i>Business, Career and Hiring Advice</b></p>
-          <hr>
-          <p class="w3-large"><b><i class="fa fa-universal-access fa-fw w3-margin-right w3-text-teal"></i>Diversity Speaker</b></p>
+        <h2 class="w3-text-grey"><i class="fa fa-star fa-fw w3-margin-right w3-large w3-text-teal"></i>Areas of Expertise</h2>
+        <div class="expertise-grid">
+          <p class="w3-large"><b><i class="fa fa-gears fa-fw w3-margin-right w3-text-teal"></i>Operations</b></p>
+          <p class="w3-large"><b><i class="fa fa-calendar fa-fw w3-margin-right w3-text-teal"></i>Production</b></p>
+          <p class="w3-large"><b><i class="fa fa-gamepad fa-fw w3-margin-right w3-text-teal"></i>Indie Publishing</b></p>
+          <p class="w3-large"><b><i class="fa fa-briefcase fa-fw w3-margin-right w3-text-teal"></i>Business Development</b></p>
+          <p class="w3-large"><b><i class="fa fa-book-open fa-fw w3-margin-right w3-text-teal"></i>Teaching</b></p>
+          <p class="w3-large"><b><i class="fa fa-handshake fa-fw w3-margin-right w3-text-teal"></i>Mentoring</b></p>
+          <p class="w3-large"><b><i class="fa fa-microphone fa-fw w3-margin-right w3-text-teal"></i>Event Speaker</b></p>
+          <p class="w3-large"><b><i class="fa fa-universal-access fa-fw w3-margin-right w3-text-teal"></i>Inclusion Support and Events</b></p>
+        </div>
 
       </div>
 
       <div class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-user fa-fw w3-margin-right w3-large w3-text-teal"></i>About me</h2>
         <div class="w3-container">
-          <h5>An avid gamer and Video Games industry professional with years of experience in Indie Publishing, Pitching, Production, Mentoring, Career Advice and Diversity Advocacy.</h5>
-          <p>
-            <ul>
-            <li>Reviewed 1000+ pitches</li>
+          <h5>Steph is a Game Development consultant who specialises in Indie Publishing, Production, Operations, Pitching, Business Development and Commercial Game Design. Having worked in the industry since 2013 on over 15 shipped titles, Steph has worked extensively across video games development, publishing and retail. She is also a highly respected advocate for diversity and inclusion within the industry.</h5>
+          <p>She has built long term relationships with clients including Games London, Swiss Arts Council, Newfangled Games and Next Gen Academy.</p>
+          <ul>
+            <li>Over 15 shipped titles</li>
+            <li>Reviewed 1250+ pitches</li>
+            <li>Analyzed 300+ demos</li>
+            <li>Production expert for Games London’s Self Publishing Toolkit</li>
             <li>In depth knowledge of the publishing process on PC and Console</li>
-            <li>Over 2 years experience mentoring</li>
-            <li>Worked with over 100 Publishers and Developers</li>
+            <li>Over 4 years experience mentoring</li>
             <li>Carer and Neurodiversity Advocate</li>
-        </ul>
+          </ul>
 
-       <p class="w3-large">Panels and Podcasts
-            <ul>
-            <li>GDC Pitch Panel 22</li> 
-            <li>First Playable Panel 22 - The Fun in Funding</li> 
-            <li>Playable Futures Podcast 22 - The Future of Indie</li>
-            <li>Safe in our World 22 - A Conversation with a Carer Panel </li>
-            <li>Games London 22 - Investors Q & A</li>
+          <p class="w3-large">Panels and Podcasts</p>
+          <ul>
+            <li>BBC Access All Podcast 26</li>
+            <li>Let’s TALK Podcast 25</li>
+            <li>Games Growth Summit Panel 25</li>
+            <li>Ukie Fempowerment Panel 24</li>
+            <li>Games London Investors Panel 24</li>
+            <li>Good Game Dev Club Expert Talk 24</li>
+            <li>Norwich Games Festival 24</li>
+            <li>Games London Investors Panel 23</li>
             <li>Tiga Awards Judge 23</li>
-          </p>
+            <li>GDC Pitch Panel 22</li>
+            <li>First Playable Panel 22 - The Fun in Funding</li>
+            <li>Playable Futures Podcast 22 - The Future of Indie</li>
+            <li>Safe in our World 22 - A Conversation with a Carer Panel</li>
+            <li>Games London 22 - Investors Q &amp; A</li>
           </ul>
           <p>Steph is a mum and carer to two lovely sons, both with a passion for gaming, and one of whom has Autism.</p>
          <hr>
           <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-handshake fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Worked with</h2>
-          
-          <table style="table-layout: fixed;width: 100%; border-spacing: 16px;"><tr>
-            <td><img style="width: 100%;" src="img/TIGA-Clear-3.gif" alt="TIGA"></td>
-            <td><img style="width: 100%;" src="img/SIOW_Logo_Secondary_Pink_CC.png" alt="Safe in our World"></td>
-            <td><img style="width: 100%;" src="img/Swiss Arts Council.png" alt="Swiss Arts Council"></td>
-            <td><img style="width: 100%;" src="img/NG.jpg" alt="Next Gen"></td>
-            <td><img style="width: 100%;" src="img/Gi22_AcademyLogo.webp" alt="Gi22_AcademyLogo"></td>
-            <td><img style="width: 100%;" src="img/Games London.png" alt="Games London"></td></tr></table>
-          
+
+          <div class="logo-grid">
+            <div class="logo-tile"><img src="img/Games London.png" alt="Games London"></div>
+            <div class="logo-tile"><img src="img/Swiss Arts Council.png" alt="Swiss Arts Council"></div>
+            <div class="logo-tile"><img src="img/companies/newfangled-games.png" alt="Newfangled Games"></div>
+            <div class="logo-tile"><img src="img/NG.jpg" alt="Next Gen Academy"></div>
+            <div class="logo-tile"><img src="img/companies/fairer-games.jpg" alt="Fairer Games"></div>
+            <div class="logo-tile logo-tile-dark"><img src="img/companies/backslash-audio.png" alt="Backslash Audio"></div>
+            <div class="logo-tile"><img src="img/companies/norwich-university-of-the-arts.jpg" alt="Norwich University of the Arts"></div>
+            <div class="logo-tile"><img src="img/companies/the-forum-norwich.svg" alt="The Forum, Norwich"></div>
+            <div class="logo-tile"><img src="img/TIGA-Clear-3.gif" alt="TIGA"></div>
+            <div class="logo-tile"><img src="img/SIOW_Logo_Secondary_Pink_CC.png" alt="Safe in our World"></div>
+            <div class="logo-tile"><img src="img/Gi22_AcademyLogo.webp" alt="GI Academy"></div>
+          </div>
+
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-gamepad fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Shipped titles</h2>
+
+          <div class="logo-grid">
+            <div class="logo-tile logo-tile-dark"><img src="img/games/paper-trail.png" alt="Paper Trail"></div>
+            <div class="logo-tile logo-tile-dark"><img src="img/games/lil-gator-game.png" alt="Lil Gator Game"></div>
+            <div class="logo-tile logo-tile-dark"><img src="img/games/cattle-country.png" alt="Cattle Country"></div>
+            <div class="logo-tile logo-tile-dark"><img src="img/games/thank-you-for-your-application.png" alt="Thank You For Your Application"></div>
+            <div class="logo-tile logo-tile-dark"><img src="img/games/the-spirit-and-the-mouse.png" alt="The Spirit and the Mouse"></div>
+            <div class="logo-tile logo-tile-dark"><img src="img/games/blossom-tales-2.png" alt="Blossom Tales II: The Minotaur Prince"></div>
+            <div class="logo-tile logo-tile-dark"><img src="img/games/demon-turf-neon-splash.png" alt="Demon Turf: Neon Splash"></div>
+            <div class="logo-tile logo-tile-dark"><img src="img/games/demon-turf.png" alt="Demon Turf"></div>
+            <div class="logo-tile logo-tile-dark"><img src="img/games/brewess.png" alt="Brewess"></div>
+            <div class="logo-tile logo-tile-dark"><img src="img/games/victory-heat-rally.png" alt="Victory Heat Rally"></div>
+            <div class="logo-tile logo-tile-dark"><img src="img/games/elsie.png" alt="Elsie"></div>
+            <div class="logo-tile logo-tile-dark"><img src="img/games/yooka-laylee.png" alt="Yooka-Laylee"></div>
+            <div class="logo-tile logo-tile-dark"><img src="img/games/a-little-golf-journey.png" alt="A Little Golf Journey"></div>
+          </div>
+
           <br>
         </div>
 
